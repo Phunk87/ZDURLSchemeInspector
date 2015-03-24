@@ -10,4 +10,8 @@
 
 @interface ZDURLSchemeInspector : NSObject
 
++ (BOOL)isURLSchemeHacked:(NSString *)URLScheme;
+
++ (NSArray *)whoCanHandleURLScheme:(NSString *)URLScheme;
+
 @end
