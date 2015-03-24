@@ -5,12 +5,16 @@ A delightful URL Scheme inspector for iOS in Objective-C. This inspector can hel
 ## Usage
 
 ```Objective-C
-# Check if your URL Scheme is hacked.
+/**
+ * Check if your URL Scheme is hacked.
+ */
 if ([ZDURLSchemeInspector isURLSchemeHacked:@"YOUR_URL_SCHEME"]) {
 	// Hacked
 }
 
-# Find out who are hacking your URL Scheme.
+/**
+ * Find out who are hacking your URL Scheme.
+ */
 NSArray *who = [ZDURLSchemeInspector whoCanHandleURLScheme:@"YOUR_URL_SCHEME"];
 ```
 
